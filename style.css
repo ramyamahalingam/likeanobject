@@ -1,0 +1,101 @@
+
+.body {
+  	font-family: 'avenir next', sans-serif;
+ 	font-size: 18px;
+ 	font-weight: 500;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  	color: #23252F;
+  	background-color: #EEEEF5;
+  	margin-top: 30px;
+}
+
+.button {
+ 	width: 90%;
+ 	height: 60px;
+  	background-color: #41424C;
+  	color: #FFFFFF;
+  	text-decoration: none;
+  	font-family: 'avenir next', sans-serif;
+ 	font-size: 20px;
+ 	font-weight: 500;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	margin-top: 40px;
+  	border: none;
+}
+
+.paragraph {
+	width: 90%;
+}
+
+.audio_clip {
+	margin-top: 50px;
+}
+
+.title {
+	width: 90%;
+	text-align: center;
+ 	font-weight: 500;
+ 	font-size: 30px;
+}
+
+.secondary_button {
+  	color: #41424C;
+  	text-decoration: none;
+  	font-family: 'avenir next', sans-serif;
+ 	font-size: 20px;
+ 	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	margin-top: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.textbox {
+	align-self: center;
+	margin-bottom: 20px;
+	width: 90%;
+	height: 80px;
+	font-family: 'avenir next', sans-serif;
+ 	font-size: 15px;
+ 	font-weight: 500;
+  	color: #23252F;
+  	background-color: #FFFFFF;
+  	border: none;
+  	resize: none;
+  	padding: 10px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    outline: none;
+    border-radius: 0px;
+}
+
+.textbox:focus {
+	border: 2px solid #23252F;
+}
+
+input[type=submit] {
+ 	width: 90%;
+ 	height: 60px;
+  	background-color: #41424C;
+  	color: #FFFFFF;
+  	text-decoration: none;
+  	font-family: 'avenir next', sans-serif;
+ 	font-size: 20px;
+ 	font-weight: 500;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	margin-top: 40px;
+  	border: none;
+}
